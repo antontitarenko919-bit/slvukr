@@ -110,3 +110,19 @@
     width: 100%;
   }
 }
+
+/* ФИКС БОЛЬШИХ ОТСТУПОВ НА МОБИЛЬНЫХ */
+@media (max-width: 768px) {
+
+  header {
+    padding: 32px 20px;
+  }
+
+  main {
+    padding: 40px 20px;
+  }
+
+  .menu {
+    padding: 40px 20px;
+  }
+}
